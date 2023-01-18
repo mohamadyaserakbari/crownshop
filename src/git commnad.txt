@@ -1,0 +1,8 @@
+git init
+   65  git add .
+   66  git add -
+   67  git add -A
+   68  git commit -m "hello"
+   69  git branch -M main
+   70  git remote add origin https://github.com/mohamadyaserakbari/shopfolan.git
+   71  git push -u origin main
