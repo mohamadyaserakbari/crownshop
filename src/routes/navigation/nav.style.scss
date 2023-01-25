@@ -1,0 +1,27 @@
+.nav-bar {
+    height: 56px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top:2rem;
+  
+    .logo-container {
+      height: 56px;
+      width: 56px;
+      margin-left: 5rem;
+    }
+  
+    .nav-links-container {
+      width: 50vw;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+  
+      .nav-link {
+        margin-right: 5rem;
+        cursor: pointer;
+        font-size: 1.2rem;
+      }
+    }
+  }
