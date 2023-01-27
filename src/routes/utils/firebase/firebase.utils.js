@@ -26,7 +26,7 @@ provider.setCustomParameters({
 
 export const auth = getAuth(); // Create instanse and communicate with firebase too.
 export const signInWithGooglePopup = () => signInWithPopup(auth, provider); // Export SignIn with popup.
-
+export const signInWithGoogleRedirect = () => signInWithGoogleRedirect(auth, provider);
 
 export const db = getFirestore();
 
