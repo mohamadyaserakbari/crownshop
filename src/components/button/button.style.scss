@@ -1,0 +1,47 @@
+.button-container {
+    min-width: 165px;
+    width: auto;
+    height: 3rem;
+    letter-spacing: 0.5px;
+    line-height: 3rem;
+    padding: 0 2rem 0 2rem;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    opacity: 95%;
+
+    &:hover {
+        opacity: 100%;
+        color: white;
+        border: 1px solid black;
+    }
+
+    &.google-sign-in {
+        background-color: #4285f4;
+        color: white;
+
+        &:hover {
+            background-color: #357ae8;
+            border: none;
+        }
+    }
+
+    &.secondry {
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+
+        &:hover {
+            background-color: black;
+            color: white;
+            border: none;
+        }
+    }
+}
